@@ -17,6 +17,8 @@ Requirements
 Attributes
 ==========
 
+ * gitosis.uid - user identifier for the git user - defaults to 910
+ * gitosis.gid - group identifier for the git group - defaults to 910
  * gitosis.authorized_key - SSH RSA Public Key for user who will be
    a gitosis admin
 
