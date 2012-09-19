@@ -17,12 +17,12 @@
 end
 
 group "git" do
-  gid 910
+  gid node['gitosis']['gid']
 end
 
 user "git" do
-  uid 910
-  gid 910
+  uid node['gitosis']['uid']
+  gid node['gitosis']['gid']
   comment "Gitosis User"
   home "/home/git"
   shell "/bin/bash"

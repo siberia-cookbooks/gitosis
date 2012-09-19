@@ -8,5 +8,7 @@
 #
 
 default['gitosis'] = {
+  'uid' => 910,
+  'gid' => 910,
   'authorized_key' => ''
 }
