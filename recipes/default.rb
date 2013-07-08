@@ -11,7 +11,7 @@
   py27-gitosis
   scmgit-base
 }.each do |p|
-  package "#{p}" do
+  package p do
     action :install
   end
 end
